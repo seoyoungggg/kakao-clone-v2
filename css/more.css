@@ -30,12 +30,12 @@
 }
 
 .suggestion .suggestion__title{
-    font-size: 12px;
-    margin-top: 15px;
+    font-size: 14px;
+    margin-top: 13px;
 }
 
 .more .suggestion__icon {
-    background-color: #fce006;
+    background-color: rgb(99, 218, 127);
     padding: 10px;
     border-radius: 10px;
     display: flex;
@@ -46,4 +46,21 @@
 .suggestion__icon i {
     font-size: 25px;
     color: white;
+}
+
+.more__btn-icon:hover i{
+    transform: scale(1.2);
+    color: rgb(99, 218, 127);
+}
+
+.more__btn-icon i{
+    transition: all 0.2s ease-in-out;
+}
+
+.suggestion__icon:hover i{
+    transform: scale(1.2);
+}
+
+.suggestion__icon i{
+    transition: transform 0.3s ease-in-out;
 }

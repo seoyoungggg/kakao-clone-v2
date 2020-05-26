@@ -1,4 +1,5 @@
 .header {
+    font-family: -apple-system;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
@@ -6,14 +7,16 @@
 }
 
 .header .header__title{
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: -apple-system;
 }
 
 .header .header__icon{
     font-size: 20px;
     margin-left: 20px;
     cursor: pointer;
+    transition: color 0.2s ease-in-out;
 }
 
 .header .header__header-column{
@@ -24,4 +27,17 @@
 .header .header__back-btn{
     font-size: 24px;
     margin-right: 20px;
+}
+
+
+.header .header__icon:hover {
+    color: rgb(99, 218, 127);
+}
+
+.header__header-column .left:hover{
+    color: rgb(99, 218, 127);
+}
+
+.header__header-column .left{
+    transition: 0.2s ease-in-out;
 }

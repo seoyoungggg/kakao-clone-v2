@@ -12,3 +12,7 @@
 .status-bar .status-bar__battery-level{
     margin-left: 8px;
 }
+
+.status-bar span{
+    font-family: -apple-system;
+}
